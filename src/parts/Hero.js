@@ -47,14 +47,14 @@ export default function Hero(props) {
                             <h6 className="mt-3">
                                 {formatNumber(props.data.treasures)}{" "}
                                 <span className="text-gray-500 font-weight-light">
-                                    Wisata
+                                    Harta Karun
                                 </span>
                             </h6>
                         </div>
                         <div className="col-auto">
                             <img width="36" height="36" src={IconCities} alt={`${props.data.cities} Cities`} />
                             <h6 className="mt-3">
-                                {formatNumber(props.data.travelers)}{" "}
+                                {formatNumber(props.data.cities)}{" "}
                                 <span className="text-gray-500 font-weight-light">
                                     Kota
                                 </span>
