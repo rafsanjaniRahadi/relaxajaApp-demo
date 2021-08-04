@@ -18,8 +18,8 @@ export default function Payment(props) {
           <div className="col-5 border-right py-5" style={{ paddingRight: 80 }}>
               <p className="mb-4">Transfer Pembayaran:</p>
               <p>Tax: {tax}%</p>
-              <p>Sub total: ${subTotal} USD</p>
-              <p>Total: ${grandTotal} USD</p>
+              <p>Sub total: Rp.{subTotal}.000</p>
+              <p>Total: Rp.{grandTotal}.000</p>
               <div className="row mt-4">
                 <div className="col-3 text-right">
                   <img src={logoBca} alt="bank central asia" width="60" />

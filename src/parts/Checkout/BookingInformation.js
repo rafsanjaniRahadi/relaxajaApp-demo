@@ -36,7 +36,7 @@ export default function BookingInformation(props) {
                       {checkout.duration}
                       {/* {ItemDetails.unit} */}
                        <span> Malam</span>
-                      {+checkout.duration > 1 ? "s" : ""}
+                      {/* {checkout.duration > 1 ? "" : ""} */}
                     </span>
                   </div>
                 </div>

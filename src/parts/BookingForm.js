@@ -116,7 +116,7 @@ class BookingForm extends Component {
           </span>{" "}
           per{" "}
           <span className="text-gray-900">
-            {data.duration} {itemDetails.unit}
+            {data.duration} Malam
           </span>
         </h6>
 
