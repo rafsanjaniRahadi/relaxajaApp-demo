@@ -201,7 +201,7 @@ import { submitBooking } from "store/action/checkout";
               {CurrentStep === "completed" && (
                 <Controller>
                   <Button
-                    className="btn"
+                    className="btn mb-3"
                     type="link"
                     isBlock
                     isPrimary
